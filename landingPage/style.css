@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #cfcfcf;
+}
+.navbar{
+    background-color: coral;
+}
+
+span{
+    color: blue;
+}
+.menu{
+    text-align: right;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.headerIMG > img{
+    width: 100%;
+    height: 300px;
+}
+h2{
+    color: orangered;
+    text-align: center;
+}
+.mainContent_img{
+    position: relative;
+}
+.mainContent_img > img{
+    width: 20%;
+    position: absolute;
+    right: 0;
+}
+.detailsPara{
+    padding-left: 20px;
+    line-height: 1.5em;
+    width: 10%;
+}
+.footer{
+    
+    position: relative;
+}
+
+.footerLink{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+}
